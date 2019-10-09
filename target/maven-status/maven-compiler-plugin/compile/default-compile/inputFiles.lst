@@ -1,0 +1,12 @@
+/home/hoang/Jsp_serverlet/Servlet_JSP_Code/lecture02/src/main/java/com/learn/controller/TestController.java
+/home/hoang/Jsp_serverlet/Servlet_JSP_Code/lecture02/src/main/java/com/learn/dao/EmployeeDao.java
+/home/hoang/Jsp_serverlet/Servlet_JSP_Code/lecture02/src/main/java/com/learn/jdbc/ConfigurationProvider.java
+/home/hoang/Jsp_serverlet/Servlet_JSP_Code/lecture02/src/main/java/com/learn/jdbc/ConfigurationProviderImpl.java
+/home/hoang/Jsp_serverlet/Servlet_JSP_Code/lecture02/src/main/java/com/learn/services/serviceIplm/EmployeeServiceIplm.java
+/home/hoang/Jsp_serverlet/Servlet_JSP_Code/lecture02/src/main/java/com/learn/jdbc/ConnectionProvider.java
+/home/hoang/Jsp_serverlet/Servlet_JSP_Code/lecture02/src/main/java/com/learn/dao/daoIplm/EmployeeDaoIplm.java
+/home/hoang/Jsp_serverlet/Servlet_JSP_Code/lecture02/src/main/java/com/learn/services/EmployeeService.java
+/home/hoang/Jsp_serverlet/Servlet_JSP_Code/lecture02/src/main/java/com/learn/jdbc/ConnectionProviderImpl.java
+/home/hoang/Jsp_serverlet/Servlet_JSP_Code/lecture02/src/main/java/com/learn/controller/EmployeeController.java
+/home/hoang/Jsp_serverlet/Servlet_JSP_Code/lecture02/src/main/java/com/learn/entities/TestModel.java
+/home/hoang/Jsp_serverlet/Servlet_JSP_Code/lecture02/src/main/java/com/learn/entities/Employee.java
