@@ -6,9 +6,6 @@
   Time: 9:34 PM
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-         pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,12 +20,12 @@
 
     //redirect user to login page if not logged in
     if(email==null){
-        response.sendRedirect("index.jsp");
+        response.sendRedirect("views/index.jsp");
     }
 %>
 <div class = "container">
     <div class="float-right">
-        <a href="${pageContext.request.contextPath}/logout.jsp">Logout</a>
+        <a href="${pageContext.request.contextPath}/views/logout.jsp">Logout</a>
     </div>
     <h1>Employee Directory</h1>
     <hr/>
@@ -36,7 +33,7 @@
     <p>${NOTIFICATION}</p>
 
     <p>
-        <button class = "btn btn-primary" onclick="window.location.href = 'views/employee-form.jsp'">Add Employee</button>
+        <button class = "btn btn-primary" onclick="window.location.href = 'views/employee-add.jsp'">Add Employee</button>
     </p>
 
     <table class = "table table-striped table-bordered" id="datatable">
@@ -49,7 +46,7 @@
         </tr>
         </thead>
         <tbody>
-        <c:forEach items="${list}" var="employee">
+        <c:forEach items="${employees}" var="employee">
             <tr>
                 <td>${employee.name}</td>
                 <td>${employee.department}</td>

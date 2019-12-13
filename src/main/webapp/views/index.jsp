@@ -25,7 +25,7 @@
 %>
 
 <div class="container">
-    <form action="loginprocess" method="post">
+    <form action="${pageContext.request.contextPath}/login" method="post">
         <div class="card">
             <div class="card-header text-left font-weight-bold">
                 Login

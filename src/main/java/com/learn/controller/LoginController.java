@@ -12,7 +12,7 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 
-@WebServlet("LoginController")
+//@WebServlet("LoginController")
 public class LoginController extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
@@ -33,7 +33,7 @@ public class LoginController extends HttpServlet {
 
         if(result.equals("true")){
             session.setAttribute("email",login.getEmail());
-            response.sendRedirect("EmployeeController?action=LIST");
+            response.sendRedirect("EmployeeController?action=list");
         }
 
         if(result.equals("false")){
