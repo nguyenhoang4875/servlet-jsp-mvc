@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
 
-//@WebServlet("/EmployeeController")
+@WebServlet("/EmployeeController")
 public class EmployeeController extends HttpServlet {
     private EmployeeService employeeService;
     private RequestDispatcher dispatcher;

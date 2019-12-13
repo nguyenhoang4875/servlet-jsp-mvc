@@ -52,9 +52,9 @@
                 <td>${employee.department}</td>
                 <td>${employee.dob}</td>
                 <td>
-                    <a href = "${pageContext.request.contextPath}/EmployeeController?action=EDIT&id=${employee.id}">Edit</a>
+                    <a href = "${pageContext.request.contextPath}/EmployeeController?action=edit&id=${employee.id}">Edit</a>
                     |
-                    <a href = "${pageContext.request.contextPath}/EmployeeController?action=DELETE&id=${employee.id}">Delete</a>
+                    <a href = "${pageContext.request.contextPath}/EmployeeController?action=delete&id=${employee.id}">Delete</a>
                 </td>
             </tr>
         </c:forEach>
