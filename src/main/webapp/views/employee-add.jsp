@@ -18,6 +18,9 @@
       crossorigin="anonymous">
 
 <div class="container">
+    <div class="float-right">
+        <a href="${pageContext.request.contextPath}/views/logout.jsp">Logout</a>
+    </div>
     <h1> Employee Directory</h1>
     <hr/>
     <div class="container">
