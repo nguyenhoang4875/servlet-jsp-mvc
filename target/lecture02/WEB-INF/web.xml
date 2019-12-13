@@ -11,20 +11,4 @@
     <welcome-file-list>
         <welcome-file>/views/index.jsp</welcome-file>
     </welcome-file-list>
-   <!-- <servlet>
-        <servlet-name>TestController</servlet-name>
-        <servlet-class>com.learn.controller.TestController</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>TestController</servlet-name>
-        <url-pattern>/TestController</url-pattern>
-    </servlet-mapping>-->
-    <servlet>
-        <servlet-name>EmployeeController</servlet-name>
-        <servlet-class>com.learn.controller.EmployeeController</servlet-class>
-    </servlet>
-    <servlet-mapping>
-        <servlet-name>EmployeeController</servlet-name>
-        <url-pattern>/EmployeeController</url-pattern>
-    </servlet-mapping>
 </web-app>
